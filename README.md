@@ -46,6 +46,7 @@ Due to limited access to real IoT data, a data generator was created to simulate
 - **Connection State**: Randomly generated from predefined states, simulating various network scenarios.
 
 ## Flask Server
+![image](https://github.com/user-attachments/assets/c0fa579b-133c-4a6f-8f6c-3cbd86f9d8e3)
 
 The Flask server integrates real-time data analysis with blockchain technology. It connects to the blockchain using Web3, allowing the server to log threats permanently in the blockchain.
 
@@ -55,7 +56,7 @@ The Flask server integrates real-time data analysis with blockchain technology. 
 The `/review` endpoint enables the administrator to review, approve, or reject detected threats before logging them to the blockchain.
 
 ## Blockchain Contract
-
+![image](https://github.com/user-attachments/assets/e9a358da-e8e9-4a62-a0b1-f3dc12dcecef)
 The blockchain contract, deployed on Ganache, integrates IoT data analysis with decentralized storage:
 
 - **Structures**: `ConnState` stores network connection states, and `ThreatData` stores threat details such as device ID, type, timestamp, and session metrics.
